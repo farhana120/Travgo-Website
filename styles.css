@@ -8,6 +8,15 @@
     display: flex;
     justify-content: space-between;
 }
+#navbar{
+    display: flex;
+justify-content: space-evenly;
+gap: 20px;
+}
+
+
+
+
 .headertitle{
     display: flex;
 }
@@ -55,13 +64,44 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
     display: flex;
     justify-content: space-between;
 }
+#hotworld{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+
+.hot{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.world{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.price{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+
+
+.hero{
+    
+
+}
 .button1{
     color: #FFF;
     background-color: #FF5400;
     border-radius: 8px;
     width: 174px;
 height: 52px;
-flex-shrink: 0;
+margin-bottom:12vh;
+align-content: center;
+
+
 }
 .destination{
     text-align: center;
@@ -70,12 +110,45 @@ flex-shrink: 0;
     border-radius: 16px;
 border: 1px solid #FF5400;
 padding: 5%;
-margin: 40px 500px 602px 135px;
+
 }
 .news{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    margin-bottom:15vh ;
 }
 #rect8{
-    margin: 40px 135px 602px 50px;
+    
+}
+.footerheadline{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    
+    
+}
+.travel{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    color: #5A5A5D;
+}
+#soc{
+    margin-left: 40vw;
+}
+#Rights{
+margin-left: 40vw;
+}
+.save{
+    color: #FFF;
+    background-color: #FF5400;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top:480vh;
+    left: 75vw;
+    transform: rotate(-19.628deg);
 }
